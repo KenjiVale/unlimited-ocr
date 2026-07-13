@@ -1,0 +1,24 @@
+# Troubleshooting
+
+- `CUDA_UNAVAILABLE`: verify `nvidia-smi`, then install the CUDA-enabled PyTorch wheel.
+- `OFFLINE_MODEL_NOT_AVAILABLE`: run `scripts/download_model.py` while online, then verify `OCR_MODEL_PATH`.
+- Model import errors: use the exact dependency versions in `pyproject.toml`; Unlimited-OCR uses trusted custom Python code.
+- RTX 50-series errors: update the NVIDIA driver and use the official PyTorch build supporting the GPU architecture.
+- Verified runtime: Python 3.12, `torch 2.8.0+cu129`, `torchvision 0.23.0+cu129`, and `transformers 4.57.1` on RTX 5070. The model-card 2.10/0.25 pair was unavailable from the official CUDA 12.9 index during setup; do not replace the working pair without a confirmed problem.
+- Upstream warnings about deprecated `torch_dtype`, `position_ids`, and missing attention masks are emitted by the trusted model code. Phase 1 and Phase 2 inference succeeded despite them; they are not patched locally.
+- `RESULT_NOT_AVAILABLE`: wait until the job reaches `COMPLETED`.
+- `SOURCE_FILE_MISSING`: restart recovery could not find the saved upload; retry requires restoring it or creating a new job.
+- Active cancellation waits for the current CUDA inference to finish. This is intentional; Python GPU threads are not terminated unsafely.
+- `PDF_PASSWORD_REQUIRED`: encrypted/password-protected PDFs are rejected; Phase 3 has no password field.
+- `PDF_PAGE_LIMIT_EXCEEDED`: reduce the document below `PDF_MAX_PAGES` or split it manually.
+- `PAGE_RESULT_NOT_AVAILABLE`: wait for that page to reach `COMPLETED`; page summaries never include OCR text.
+- DPI trade-offs: 150 is faster and smaller with potentially lower accuracy; 200 is balanced/default; 300 produces more detail, larger PNGs, and slower rendering.
+- Rendered PNGs and page outputs are retained during Phase 3 debugging. Explicit job deletion removes upload, page-image, output directories, and cascaded page rows, never model files.
+- `QUEUE_CAPACITY_REACHED`: wait for queued jobs to finish or raise `MAX_QUEUED_JOBS` deliberately.
+- `INSUFFICIENT_DISK_SPACE`: free disk space or reduce `MIN_FREE_DISK_GB`; uploads are rejected before storing source bytes.
+- `DATABASE_BUSY`: another SQLite writer exceeded the configured busy timeout. The worker keeps completed files intact and no automatic duplicate retry is performed.
+- Cleanup is manual only. Preview before run; defaults preserve source and output files. Rendered PNG cleanup intentionally makes future rerender recovery necessary for an interrupted job, while completed outputs remain valid.
+- A normal shutdown waits at most `SHUTDOWN_GRACE_SECONDS` and stops at a safe page boundary. Force termination cannot run this cleanup; startup recovery handles persisted active state.
+- A prior `spawn EPERM` report was not reproducible after a clean `.next` rebuild. Node async/sync child-process probes and standalone `tsc --noEmit` passed; both default Turbopack and `next build --webpack` produced a valid `BUILD_ID`. If it recurs, run the build from `apps\web`, stop project-scoped processes, remove only `apps\web\.next`, and capture the full output. Do not use `typescript.ignoreBuildErrors`.
+- If `node --test` itself reports `spawn EPERM`, use the repository's dependency-free frontend smoke command (`pnpm test`); the Windows Node test runner may spawn a worker even when direct `child_process` probes pass.
+- In this Windows/Codex shell, the root recursive `pnpm --filter web build` invocation reproduced `spawn EPERM`, while the direct workspace command `Set-Location apps\web; pnpm exec next build` produced a valid build. The setup script uses the direct command as the bounded workaround; this finding is scoped to this environment.

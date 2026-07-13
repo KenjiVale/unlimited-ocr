@@ -1,0 +1,346 @@
+[
+  {
+    "id": "clean-digital-01",
+    "category": "clean-digital",
+    "input_path": "evaluation/fixtures/clean-digital/clean-digital-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/clean-digital/clean-digital-01.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "clean-digital-02",
+    "category": "clean-digital",
+    "input_path": "evaluation/fixtures/clean-digital/clean-digital-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/clean-digital/clean-digital-02.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "scanned-print-01",
+    "category": "scanned-print",
+    "input_path": "evaluation/fixtures/scanned-print/scanned-print-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/scanned-print/scanned-print-01.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "scanned-print-02",
+    "category": "scanned-print",
+    "input_path": "evaluation/fixtures/scanned-print/scanned-print-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/scanned-print/scanned-print-02.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "low-resolution-01",
+    "category": "low-resolution",
+    "input_path": "evaluation/fixtures/low-resolution/low-resolution-01.png",
+    "ground_truth_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt",
+    "file_type": "image",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "low-resolution-02",
+    "category": "low-resolution",
+    "input_path": "evaluation/fixtures/low-resolution/low-resolution-02.png",
+    "ground_truth_path": "evaluation/ground-truth/low-resolution/low-resolution-02.txt",
+    "file_type": "image",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "rotated-01",
+    "category": "rotated",
+    "input_path": "evaluation/fixtures/rotated/rotated-01.png",
+    "ground_truth_path": "evaluation/ground-truth/rotated/rotated-01.txt",
+    "file_type": "image",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "rotated-02",
+    "category": "rotated",
+    "input_path": "evaluation/fixtures/rotated/rotated-02.png",
+    "ground_truth_path": "evaluation/ground-truth/rotated/rotated-02.txt",
+    "file_type": "image",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "multi-column-01",
+    "category": "multi-column",
+    "input_path": "evaluation/fixtures/multi-column/multi-column-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/multi-column/multi-column-01.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": true,
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "multi-column-02",
+    "category": "multi-column",
+    "input_path": "evaluation/fixtures/multi-column/multi-column-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/multi-column/multi-column-02.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": true,
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "tables-01",
+    "category": "tables",
+    "input_path": "evaluation/fixtures/tables/tables-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/tables/tables-01.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": true,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "paper_quantity", "type": "quantity", "expected": "2"},
+      {"name": "paper_price", "type": "integer", "expected": "15000"},
+      {"name": "ink_quantity", "type": "quantity", "expected": "1"},
+      {"name": "ink_price", "type": "integer", "expected": "45000"}
+    ],
+    "table": {"headers": ["Item", "Quantity", "Price"], "rows": [["Paper", "2", "15000"], ["Ink", "1", "45000"]]},
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "tables-02",
+    "category": "tables",
+    "input_path": "evaluation/fixtures/tables/tables-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/tables/tables-02.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": true,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "paper_quantity", "type": "quantity", "expected": "2"},
+      {"name": "paper_price", "type": "integer", "expected": "15000"},
+      {"name": "ink_quantity", "type": "quantity", "expected": "1"},
+      {"name": "ink_price", "type": "integer", "expected": "45000"}
+    ],
+    "table": {"headers": ["Item", "Quantity", "Price"], "rows": [["Paper", "2", "15000"], ["Ink", "1", "45000"]]},
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "invoice-receipt-01",
+    "category": "invoice-receipt",
+    "input_path": "evaluation/fixtures/invoice-receipt/invoice-receipt-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/invoice-receipt/invoice-receipt-01.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "invoice_number", "type": "identifier", "expected": "INVOICE 2026-001"},
+      {"name": "invoice_date", "type": "date", "expected": "2026-07-12", "accepted_formats": ["2026-07-12", "12 July 2026"]},
+      {"name": "total", "type": "currency", "expected_numeric": "125000", "expected_currency": "IDR", "currency_required": true}
+    ],
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "invoice-receipt-02",
+    "category": "invoice-receipt",
+    "input_path": "evaluation/fixtures/invoice-receipt/invoice-receipt-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/invoice-receipt/invoice-receipt-02.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "invoice_number", "type": "identifier", "expected": "INVOICE 2026-001"},
+      {"name": "invoice_date", "type": "date", "expected": "2026-07-12", "accepted_formats": ["2026-07-12", "12 July 2026"]},
+      {"name": "total", "type": "currency", "expected_numeric": "125000", "expected_currency": "IDR", "currency_required": true}
+    ],
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "bilingual-01",
+    "category": "bilingual",
+    "input_path": "evaluation/fixtures/bilingual/bilingual-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/bilingual/bilingual-01.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "sample_number", "type": "quantity", "expected": "1"}
+    ],
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "bilingual-02",
+    "category": "bilingual",
+    "input_path": "evaluation/fixtures/bilingual/bilingual-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/bilingual/bilingual-02.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "sample_number", "type": "quantity", "expected": "2"}
+    ],
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "numeric-01",
+    "category": "numeric",
+    "input_path": "evaluation/fixtures/numeric/numeric-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/numeric/numeric-01.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "order_number", "type": "identifier", "expected": "Order 98765"},
+      {"name": "order_date", "type": "date", "expected": "2026-07-12", "accepted_formats": ["2026-07-12"]},
+      {"name": "amount", "type": "currency", "expected_numeric": "1250000", "expected_currency": "IDR", "currency_required": true},
+      {"name": "tax", "type": "percentage", "expected": "11"}
+    ],
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "numeric-02",
+    "category": "numeric",
+    "input_path": "evaluation/fixtures/numeric/numeric-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/numeric/numeric-02.txt",
+    "file_type": "pdf",
+    "page_count": 1,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "numeric_fields": [
+      {"name": "order_number", "type": "identifier", "expected": "Order 98765"},
+      {"name": "order_date", "type": "date", "expected": "2026-07-12", "accepted_formats": ["2026-07-12"]},
+      {"name": "amount", "type": "currency", "expected_numeric": "1250000", "expected_currency": "IDR", "currency_required": true},
+      {"name": "tax", "type": "percentage", "expected": "11"}
+    ],
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "multi-page-01",
+    "category": "multi-page",
+    "input_path": "evaluation/fixtures/multi-page/multi-page-01.pdf",
+    "ground_truth_path": "evaluation/ground-truth/multi-page/multi-page-01.txt",
+    "page_ground_truth_path": "evaluation/ground-truth/multi-page/multi-page-01-pages.json",
+    "file_type": "pdf",
+    "page_count": 3,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "multi-page-02",
+    "category": "multi-page",
+    "input_path": "evaluation/fixtures/multi-page/multi-page-02.pdf",
+    "ground_truth_path": "evaluation/ground-truth/multi-page/multi-page-02.txt",
+    "page_ground_truth_path": "evaluation/ground-truth/multi-page/multi-page-02-pages.json",
+    "file_type": "pdf",
+    "page_count": 3,
+    "language": [
+      "id",
+      "en"
+    ],
+    "contains_table": false,
+    "contains_columns": false,
+    "expected_difficulty": "easy"
+  }
+]

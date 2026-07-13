@@ -1,0 +1,8 @@
+# OCR Result
+
+## Page 1
+
+Item Quantity Price
+Paper 2 15000
+Ink 1 45000
+Sample 1.

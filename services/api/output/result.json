@@ -1,0 +1,28 @@
+{
+  "job_id": "8ef50810-7bb4-4f65-8a84-c5c184a4de6a",
+  "original_filename": "a.pdf",
+  "file_type": "pdf",
+  "status": "FAILED",
+  "ocr_mode": "gundam",
+  "pdf_dpi": 200,
+  "total_pages": 1,
+  "processed_pages": 1,
+  "successful_pages": 0,
+  "failed_pages": 1,
+  "duration_ms": 0,
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "FAILED",
+      "markdown": null,
+      "text": null,
+      "render_duration_ms": null,
+      "inference_duration_ms": null,
+      "peak_allocated_vram_mb": null,
+      "error": {
+        "code": "PAGE_RENDER_FAILED",
+        "message": "The PDF page could not be rendered."
+      }
+    }
+  ]
+}

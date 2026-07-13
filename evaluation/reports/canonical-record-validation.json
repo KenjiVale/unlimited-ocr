@@ -1,0 +1,360 @@
+{
+  "valid": true,
+  "primary_records": 20,
+  "dpi_records": 18,
+  "total_records": 38,
+  "duplicate_record_ids": [],
+  "duplicate_record_keys": [],
+  "missing_inputs": [],
+  "missing_ocr_sources": [],
+  "missing_ground_truth_sources": [],
+  "empty_ocr_sources": [],
+  "empty_ground_truth_sources": [],
+  "path_collisions": [],
+  "invalid_categories": [],
+  "invalid_dpi_records": [],
+  "records": [
+    {
+      "record_id": "clean-digital-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/clean-digital-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/clean-digital/clean-digital-01.txt",
+      "ocr_bytes": 105,
+      "ground_truth_bytes": 76,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "clean-digital-01-dpi-150",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/clean-digital-01-150.md",
+      "ground_truth_source_path": "evaluation/ground-truth/clean-digital/clean-digital-01.txt",
+      "ocr_bytes": 105,
+      "ground_truth_bytes": 76,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "clean-digital-01-dpi-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/clean-digital-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/clean-digital/clean-digital-01.txt",
+      "ocr_bytes": 105,
+      "ground_truth_bytes": 76,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "clean-digital-01-dpi-300",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/clean-digital-01-300.md",
+      "ground_truth_source_path": "evaluation/ground-truth/clean-digital/clean-digital-01.txt",
+      "ocr_bytes": 105,
+      "ground_truth_bytes": 76,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "clean-digital-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/clean-digital-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/clean-digital/clean-digital-02.txt",
+      "ocr_bytes": 105,
+      "ground_truth_bytes": 76,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "scanned-print-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/scanned-print-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/scanned-print/scanned-print-01.txt",
+      "ocr_bytes": 104,
+      "ground_truth_bytes": 75,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "scanned-print-01-dpi-150",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/scanned-print-01-150.md",
+      "ground_truth_source_path": "evaluation/ground-truth/scanned-print/scanned-print-01.txt",
+      "ocr_bytes": 104,
+      "ground_truth_bytes": 75,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "scanned-print-01-dpi-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/scanned-print-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/scanned-print/scanned-print-01.txt",
+      "ocr_bytes": 104,
+      "ground_truth_bytes": 75,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "scanned-print-01-dpi-300",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/scanned-print-01-300.md",
+      "ground_truth_source_path": "evaluation/ground-truth/scanned-print/scanned-print-01.txt",
+      "ocr_bytes": 104,
+      "ground_truth_bytes": 75,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "scanned-print-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/scanned-print-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/scanned-print/scanned-print-02.txt",
+      "ocr_bytes": 104,
+      "ground_truth_bytes": 75,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "low-resolution-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt",
+      "ocr_bytes": 47,
+      "ground_truth_bytes": 51,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "low-resolution-01-dpi-150",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-150.md",
+      "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt",
+      "ocr_bytes": 47,
+      "ground_truth_bytes": 51,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "low-resolution-01-dpi-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt",
+      "ocr_bytes": 47,
+      "ground_truth_bytes": 51,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "low-resolution-01-dpi-300",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-300.md",
+      "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt",
+      "ocr_bytes": 47,
+      "ground_truth_bytes": 51,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "low-resolution-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-02.txt",
+      "ocr_bytes": 47,
+      "ground_truth_bytes": 51,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "rotated-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/rotated-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/rotated/rotated-01.txt",
+      "ocr_bytes": 71,
+      "ground_truth_bytes": 72,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "rotated-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/rotated-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/rotated/rotated-02.txt",
+      "ocr_bytes": 71,
+      "ground_truth_bytes": 72,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "multi-column-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/multi-column-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/multi-column/multi-column-01.txt",
+      "ocr_bytes": 100,
+      "ground_truth_bytes": 71,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "multi-column-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/multi-column-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/multi-column/multi-column-02.txt",
+      "ocr_bytes": 100,
+      "ground_truth_bytes": 71,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "tables-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/tables-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/tables/tables-01.txt",
+      "ocr_bytes": 87,
+      "ground_truth_bytes": 58,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "tables-01-dpi-150",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/tables-01-150.md",
+      "ground_truth_source_path": "evaluation/ground-truth/tables/tables-01.txt",
+      "ocr_bytes": 87,
+      "ground_truth_bytes": 58,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "tables-01-dpi-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/tables-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/tables/tables-01.txt",
+      "ocr_bytes": 87,
+      "ground_truth_bytes": 58,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "tables-01-dpi-300",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/tables-01-300.md",
+      "ground_truth_source_path": "evaluation/ground-truth/tables/tables-01.txt",
+      "ocr_bytes": 87,
+      "ground_truth_bytes": 58,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "tables-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/tables-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/tables/tables-02.txt",
+      "ocr_bytes": 87,
+      "ground_truth_bytes": 58,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "invoice-receipt-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/invoice-receipt-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/invoice-receipt/invoice-receipt-01.txt",
+      "ocr_bytes": 92,
+      "ground_truth_bytes": 63,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "invoice-receipt-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/invoice-receipt-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/invoice-receipt/invoice-receipt-02.txt",
+      "ocr_bytes": 92,
+      "ground_truth_bytes": 63,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "bilingual-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt",
+      "ocr_bytes": 83,
+      "ground_truth_bytes": 54,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "bilingual-01-dpi-150",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-150.md",
+      "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt",
+      "ocr_bytes": 83,
+      "ground_truth_bytes": 54,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "bilingual-01-dpi-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt",
+      "ocr_bytes": 83,
+      "ground_truth_bytes": 54,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "bilingual-01-dpi-300",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-300.md",
+      "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt",
+      "ocr_bytes": 83,
+      "ground_truth_bytes": 54,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "bilingual-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-02.txt",
+      "ocr_bytes": 83,
+      "ground_truth_bytes": 54,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "numeric-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/numeric-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/numeric/numeric-01.txt",
+      "ocr_bytes": 98,
+      "ground_truth_bytes": 69,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "numeric-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/numeric-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/numeric/numeric-02.txt",
+      "ocr_bytes": 98,
+      "ground_truth_bytes": 69,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "multi-page-01-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/multi-page-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/multi-page/multi-page-01.txt",
+      "ocr_bytes": 293,
+      "ground_truth_bytes": 64,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "multi-page-01-dpi-150",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/multi-page-01-150.md",
+      "ground_truth_source_path": "evaluation/ground-truth/multi-page/multi-page-01.txt",
+      "ocr_bytes": 293,
+      "ground_truth_bytes": 64,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "multi-page-01-dpi-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/multi-page-01-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/multi-page/multi-page-01.txt",
+      "ocr_bytes": 293,
+      "ground_truth_bytes": 64,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "multi-page-01-dpi-300",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/multi-page-01-300.md",
+      "ground_truth_source_path": "evaluation/ground-truth/multi-page/multi-page-01.txt",
+      "ocr_bytes": 293,
+      "ground_truth_bytes": 64,
+      "valid": true,
+      "issues": []
+    },
+    {
+      "record_id": "multi-page-02-primary-200",
+      "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/multi-page-02-200.md",
+      "ground_truth_source_path": "evaluation/ground-truth/multi-page/multi-page-02.txt",
+      "ocr_bytes": 293,
+      "ground_truth_bytes": 64,
+      "valid": true,
+      "issues": []
+    }
+  ]
+}

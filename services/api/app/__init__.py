@@ -1,0 +1,2 @@
+"""Unlimited OCR local API."""
+

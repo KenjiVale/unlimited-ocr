@@ -1,0 +1,9 @@
+{
+  "name": "unlimited-ocr-local",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "build:web": "pnpm --filter web build"
+  },
+  "packageManager": "pnpm@10.13.1"
+}

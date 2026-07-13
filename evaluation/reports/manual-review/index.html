@@ -1,0 +1,167 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Phase 6 Manual Layout Review</title>
+<style>body{font:14px system-ui,sans-serif;margin:24px;background:#f5f5f5;color:#111}article{background:#fff;margin:24px 0;padding:20px;border:1px solid #bbb}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}section{min-width:0}img{max-width:100%;border:1px solid #777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f0f0f0;padding:10px;border:1px solid #ddd}h3{border-top:1px solid #bbb;padding-top:16px}</style></head><body>
+<h1>Phase 6 manual layout review</h1><p>Local artifacts only. Raw OCR is not corrected.</p><article id='document-multi-column-01'><h2>multi-column-01</h2><p>Category: multi-column | DPI: 200 | Pages: 1</p><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-column-01/page_0001.png' alt='multi-column-01 input'></section><section><h4>Ground truth</h4><pre>Left Column A
+Left Column B
+Right Column A
+Right Column B
+Sample 1.</pre></section><section><h4>Raw OCR Markdown</h4><pre># OCR Result
+
+## Page 1
+
+Left Column A
+Left Column B
+Right Column A
+Right Column B
+Sample 1.</pre></section><section><h4>Strict normalized OCR</h4><pre>Left Column A
+Left Column B
+Right Column A
+Right Column B
+Sample 1.</pre></section></div></article><article id='document-multi-column-02'><h2>multi-column-02</h2><p>Category: multi-column | DPI: 200 | Pages: 1</p><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-column-02/page_0001.png' alt='multi-column-02 input'></section><section><h4>Ground truth</h4><pre>Left Column A
+Left Column B
+Right Column A
+Right Column B
+Sample 2.</pre></section><section><h4>Raw OCR Markdown</h4><pre># OCR Result
+
+## Page 1
+
+Left Column A
+Left Column B
+Right Column A
+Right Column B
+Sample 2.</pre></section><section><h4>Strict normalized OCR</h4><pre>Left Column A
+Left Column B
+Right Column A
+Right Column B
+Sample 2.</pre></section></div></article><article id='document-tables-01'><h2>tables-01</h2><p>Category: tables | DPI: 200 | Pages: 1</p><div class='grid'><section><h4>Rendered input</h4><img src='assets/tables-01/page_0001.png' alt='tables-01 input'></section><section><h4>Ground truth</h4><pre>Item Quantity Price
+Paper 2 15000
+Ink 1 45000
+Sample 1.</pre></section><section><h4>Raw OCR Markdown</h4><pre># OCR Result
+
+## Page 1
+
+Item Quantity Price
+Paper 2 15000
+Ink 1 45000
+Sample 1.</pre></section><section><h4>Strict normalized OCR</h4><pre>Item Quantity Price
+Paper 2 15000
+Ink 1 45000
+Sample 1.</pre></section></div></article><article id='document-tables-02'><h2>tables-02</h2><p>Category: tables | DPI: 200 | Pages: 1</p><div class='grid'><section><h4>Rendered input</h4><img src='assets/tables-02/page_0001.png' alt='tables-02 input'></section><section><h4>Ground truth</h4><pre>Item Quantity Price
+Paper 2 15000
+Ink 1 45000
+Sample 2.</pre></section><section><h4>Raw OCR Markdown</h4><pre># OCR Result
+
+## Page 1
+
+Item Quantity Price
+Paper 2 15000
+Ink 1 45000
+Sample 2.</pre></section><section><h4>Strict normalized OCR</h4><pre>Item Quantity Price
+Paper 2 15000
+Ink 1 45000
+Sample 2.</pre></section></div></article><article id='document-invoice-receipt-01'><h2>invoice-receipt-01</h2><p>Category: invoice-receipt | DPI: 200 | Pages: 1</p><div class='grid'><section><h4>Rendered input</h4><img src='assets/invoice-receipt-01/page_0001.png' alt='invoice-receipt-01 input'></section><section><h4>Ground truth</h4><pre>INVOICE 2026-001
+Date 12 July 2026
+Total Rp 125000
+Sample 1.</pre></section><section><h4>Raw OCR Markdown</h4><pre># OCR Result
+
+## Page 1
+
+INVOICE 2026-001
+Date 12 July 2026
+Total Rp 125000
+Sample 1.</pre></section><section><h4>Strict normalized OCR</h4><pre>INVOICE 2026-001
+Date 12 July 2026
+Total Rp 125000
+Sample 1.</pre></section></div></article><article id='document-invoice-receipt-02'><h2>invoice-receipt-02</h2><p>Category: invoice-receipt | DPI: 200 | Pages: 1</p><div class='grid'><section><h4>Rendered input</h4><img src='assets/invoice-receipt-02/page_0001.png' alt='invoice-receipt-02 input'></section><section><h4>Ground truth</h4><pre>INVOICE 2026-001
+Date 12 July 2026
+Total Rp 125000
+Sample 2.</pre></section><section><h4>Raw OCR Markdown</h4><pre># OCR Result
+
+## Page 1
+
+INVOICE 2026-001
+Date 12 July 2026
+Total Rp 125000
+Sample 2.</pre></section><section><h4>Strict normalized OCR</h4><pre>INVOICE 2026-001
+Date 12 July 2026
+Total Rp 125000
+Sample 2.</pre></section></div></article><article id='document-multi-page-01'><h2>multi-page-01</h2><p>Category: multi-page | DPI: 200 | Pages: 3</p><h3>Page 1</h3><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-page-01/page_0001.png' alt='multi-page-01 page 1'></section><section><h4>Ground truth</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 1</pre></section><section><h4>Raw OCR Markdown</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 1
+
+---</pre></section><section><h4>Strict normalized OCR</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 1</pre></section></div><h3>Page 2</h3><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-page-01/page_0002.png' alt='multi-page-01 page 2'></section><section><h4>Ground truth</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 2</pre></section><section><h4>Raw OCR Markdown</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 2
+
+---</pre></section><section><h4>Strict normalized OCR</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 2</pre></section></div><h3>Page 3</h3><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-page-01/page_0003.png' alt='multi-page-01 page 3'></section><section><h4>Ground truth</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 3</pre></section><section><h4>Raw OCR Markdown</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 3</pre></section><section><h4>Strict normalized OCR</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 1.
+Page 3</pre></section></div></article><article id='document-multi-page-02'><h2>multi-page-02</h2><p>Category: multi-page | DPI: 200 | Pages: 3</p><h3>Page 1</h3><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-page-02/page_0001.png' alt='multi-page-02 page 1'></section><section><h4>Ground truth</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 1</pre></section><section><h4>Raw OCR Markdown</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 1
+
+---</pre></section><section><h4>Strict normalized OCR</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 1</pre></section></div><h3>Page 2</h3><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-page-02/page_0002.png' alt='multi-page-02 page 2'></section><section><h4>Ground truth</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 2</pre></section><section><h4>Raw OCR Markdown</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 2
+
+---</pre></section><section><h4>Strict normalized OCR</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 2</pre></section></div><h3>Page 3</h3><div class='grid'><section><h4>Rendered input</h4><img src='assets/multi-page-02/page_0003.png' alt='multi-page-02 page 3'></section><section><h4>Ground truth</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 3</pre></section><section><h4>Raw OCR Markdown</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 3</pre></section><section><h4>Strict normalized OCR</h4><pre>Multi Page One
+Second page follows
+Third page ends.
+Sample 2.
+Page 3</pre></section></div></article></body></html>

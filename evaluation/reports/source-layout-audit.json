@@ -1,0 +1,15 @@
+{
+  "raw_results_path": "evaluation/reports/raw-results.json",
+  "ocr_output_patterns": [
+    "evaluation/outputs/{document_id}-{dpi}.md"
+  ],
+  "ground_truth_patterns": [
+    "evaluation/ground-truth/{category}/{document_id}.txt"
+  ],
+  "manifest_path": "evaluation/manifest.json",
+  "primary_record_source": "200 DPI output",
+  "dpi_record_source": "six selected document outputs at 150/200/300 DPI",
+  "notes": [
+    "OCR content is stored in per-run Markdown files."
+  ]
+}

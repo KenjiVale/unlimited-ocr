@@ -1,0 +1,11 @@
+{
+  "status": "blocked",
+  "finding": "The remediation scorer generated preliminary 0% content scores without validating that each canonical OCR record was uniquely selected and paired with its intended ground truth. Its record selection and diagnostics were insufficient for release metrics.",
+  "required_before_final_scoring": [
+    "unique canonical record validation",
+    "per-record OCR and ground-truth path audit",
+    "page-aligned multi-page extraction",
+    "numeric and table schemas",
+    "factual manual review"
+  ]
+}

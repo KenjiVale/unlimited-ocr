@@ -1,0 +1,65 @@
+{
+  "valid": true,
+  "records": [
+    {
+      "source_path": "evaluation/outputs/multi-page-01-150.md",
+      "pages_detected": 3,
+      "page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "page_character_counts": {
+        "1": 73,
+        "2": 73,
+        "3": 68
+      },
+      "issues": []
+    },
+    {
+      "source_path": "evaluation/outputs/multi-page-01-200.md",
+      "pages_detected": 3,
+      "page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "page_character_counts": {
+        "1": 73,
+        "2": 73,
+        "3": 68
+      },
+      "issues": []
+    },
+    {
+      "source_path": "evaluation/outputs/multi-page-01-300.md",
+      "pages_detected": 3,
+      "page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "page_character_counts": {
+        "1": 73,
+        "2": 73,
+        "3": 68
+      },
+      "issues": []
+    },
+    {
+      "source_path": "evaluation/outputs/multi-page-02-200.md",
+      "pages_detected": 3,
+      "page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "page_character_counts": {
+        "1": 73,
+        "2": 73,
+        "3": 68
+      },
+      "issues": []
+    }
+  ]
+}

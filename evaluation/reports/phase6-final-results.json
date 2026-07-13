@@ -1,0 +1,2912 @@
+{
+  "phase": "Phase 6",
+  "status": "COMPLETED",
+  "lifecycle_correction": "COMPLETED",
+  "historical_physical_jobs": 44,
+  "canonical_records": 38,
+  "primary_records": 20,
+  "canonical_dpi_records": 18,
+  "content_summary": {
+    "records": 38,
+    "primary": 20,
+    "dpi": 18,
+    "median_raw_cer": 0.3424657534246575,
+    "median_strict_cer": 0.0,
+    "median_relaxed_cer": 0.0,
+    "median_raw_wer": 0.5454545454545454,
+    "median_strict_wer": 0.0,
+    "median_relaxed_wer": 0.0,
+    "multi_page_records": [
+      "multi-page-01-primary-200",
+      "multi-page-01-dpi-150",
+      "multi-page-01-dpi-200",
+      "multi-page-01-dpi-300",
+      "multi-page-02-primary-200"
+    ]
+  },
+  "structured_metrics": {
+    "category_content_aggregates": {
+      "clean-digital": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.33783783783783783,
+        "median_raw_markdown_wer": 0.5454545454545454,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      },
+      "scanned-print": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.3424657534246575,
+        "median_raw_markdown_wer": 0.6,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      },
+      "low-resolution": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.22448979591836735,
+        "median_raw_markdown_wer": 0.5,
+        "median_strict_content_cer": 0.22448979591836735,
+        "median_strict_content_wer": 0.5,
+        "median_relaxed_content_cer": 0.22448979591836735,
+        "minimum_relaxed_content_cer": 0.22448979591836735,
+        "maximum_relaxed_content_cer": 0.22448979591836735,
+        "median_relaxed_content_wer": 0.5,
+        "minimum_relaxed_content_wer": 0.5,
+        "maximum_relaxed_content_wer": 0.5
+      },
+      "rotated": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.014285714285714285,
+        "median_raw_markdown_wer": 0.09090909090909091,
+        "median_strict_content_cer": 0.014285714285714285,
+        "median_strict_content_wer": 0.09090909090909091,
+        "median_relaxed_content_cer": 0.014285714285714285,
+        "minimum_relaxed_content_cer": 0.014285714285714285,
+        "maximum_relaxed_content_cer": 0.014285714285714285,
+        "median_relaxed_content_wer": 0.09090909090909091,
+        "minimum_relaxed_content_wer": 0.09090909090909091,
+        "maximum_relaxed_content_wer": 0.09090909090909091
+      },
+      "multi-column": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.373134328358209,
+        "median_raw_markdown_wer": 0.42857142857142855,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      },
+      "tables": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.45454545454545453,
+        "median_raw_markdown_wer": 0.5454545454545454,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      },
+      "invoice-receipt": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.4166666666666667,
+        "median_raw_markdown_wer": 0.5454545454545454,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      },
+      "bilingual": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.4807692307692308,
+        "median_raw_markdown_wer": 0.75,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      },
+      "numeric": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.38461538461538464,
+        "median_raw_markdown_wer": 0.5454545454545454,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      },
+      "multi-page": {
+        "record_count": 2,
+        "median_raw_markdown_cer": 0.049019607843137254,
+        "median_raw_markdown_wer": 0.05128205128205128,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.0,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.0
+      }
+    },
+    "dpi_content_aggregates": {
+      "150": {
+        "record_count": 6,
+        "median_raw_markdown_cer": 0.33783783783783783,
+        "median_raw_markdown_wer": 0.5454545454545454,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.22448979591836735,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.5
+      },
+      "200": {
+        "record_count": 6,
+        "median_raw_markdown_cer": 0.33783783783783783,
+        "median_raw_markdown_wer": 0.5454545454545454,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.22448979591836735,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.5
+      },
+      "300": {
+        "record_count": 6,
+        "median_raw_markdown_cer": 0.33783783783783783,
+        "median_raw_markdown_wer": 0.5454545454545454,
+        "median_strict_content_cer": 0.0,
+        "median_strict_content_wer": 0.0,
+        "median_relaxed_content_cer": 0.0,
+        "minimum_relaxed_content_cer": 0.0,
+        "maximum_relaxed_content_cer": 0.22448979591836735,
+        "median_relaxed_content_wer": 0.0,
+        "minimum_relaxed_content_wer": 0.0,
+        "maximum_relaxed_content_wer": 0.5
+      }
+    },
+    "per_document_dpi_comparison": [
+      {
+        "document_id": "bilingual-01",
+        "dpi_metrics": {
+          "150": {
+            "raw_markdown": {
+              "cer": 0.4807692307692308,
+              "wer": 0.75,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            }
+          },
+          "200": {
+            "raw_markdown": {
+              "cer": 0.4807692307692308,
+              "wer": 0.75,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            }
+          },
+          "300": {
+            "raw_markdown": {
+              "cer": 0.4807692307692308,
+              "wer": 0.75,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 52
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 8
+              }
+            }
+          }
+        },
+        "best_relaxed_cer_dpi": 150,
+        "best_relaxed_wer_dpi": 150
+      },
+      {
+        "document_id": "clean-digital-01",
+        "dpi_metrics": {
+          "150": {
+            "raw_markdown": {
+              "cer": 0.33783783783783783,
+              "wer": 0.5454545454545454,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            }
+          },
+          "200": {
+            "raw_markdown": {
+              "cer": 0.33783783783783783,
+              "wer": 0.5454545454545454,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            }
+          },
+          "300": {
+            "raw_markdown": {
+              "cer": 0.33783783783783783,
+              "wer": 0.5454545454545454,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 74
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            }
+          }
+        },
+        "best_relaxed_cer_dpi": 150,
+        "best_relaxed_wer_dpi": 150
+      },
+      {
+        "document_id": "low-resolution-01",
+        "dpi_metrics": {
+          "150": {
+            "raw_markdown": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            },
+            "strict_content": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            }
+          },
+          "200": {
+            "raw_markdown": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            },
+            "strict_content": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            }
+          },
+          "300": {
+            "raw_markdown": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            },
+            "strict_content": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.22448979591836735,
+              "wer": 0.5,
+              "character_edits": {
+                "substitutions": 5,
+                "insertions": 1,
+                "deletions": 5,
+                "reference_length": 49
+              },
+              "word_edits": {
+                "substitutions": 3,
+                "insertions": 0,
+                "deletions": 1,
+                "reference_length": 8
+              }
+            }
+          }
+        },
+        "best_relaxed_cer_dpi": 150,
+        "best_relaxed_wer_dpi": 150
+      },
+      {
+        "document_id": "multi-page-01",
+        "dpi_metrics": {
+          "150": {
+            "raw_markdown": {
+              "cer": 0.049019607843137254,
+              "wer": 0.05128205128205128,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 10,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 2,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            }
+          },
+          "200": {
+            "raw_markdown": {
+              "cer": 0.049019607843137254,
+              "wer": 0.05128205128205128,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 10,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 2,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            }
+          },
+          "300": {
+            "raw_markdown": {
+              "cer": 0.049019607843137254,
+              "wer": 0.05128205128205128,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 10,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 2,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 204
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 39
+              }
+            }
+          }
+        },
+        "best_relaxed_cer_dpi": 150,
+        "best_relaxed_wer_dpi": 150
+      },
+      {
+        "document_id": "scanned-print-01",
+        "dpi_metrics": {
+          "150": {
+            "raw_markdown": {
+              "cer": 0.3424657534246575,
+              "wer": 0.6,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            }
+          },
+          "200": {
+            "raw_markdown": {
+              "cer": 0.3424657534246575,
+              "wer": 0.6,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            }
+          },
+          "300": {
+            "raw_markdown": {
+              "cer": 0.3424657534246575,
+              "wer": 0.6,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 73
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 10
+              }
+            }
+          }
+        },
+        "best_relaxed_cer_dpi": 150,
+        "best_relaxed_wer_dpi": 150
+      },
+      {
+        "document_id": "tables-01",
+        "dpi_metrics": {
+          "150": {
+            "raw_markdown": {
+              "cer": 0.45454545454545453,
+              "wer": 0.5454545454545454,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            }
+          },
+          "200": {
+            "raw_markdown": {
+              "cer": 0.45454545454545453,
+              "wer": 0.5454545454545454,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            }
+          },
+          "300": {
+            "raw_markdown": {
+              "cer": 0.45454545454545453,
+              "wer": 0.5454545454545454,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 25,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 6,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "strict_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            },
+            "relaxed_content": {
+              "cer": 0.0,
+              "wer": 0.0,
+              "character_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 55
+              },
+              "word_edits": {
+                "substitutions": 0,
+                "insertions": 0,
+                "deletions": 0,
+                "reference_length": 11
+              }
+            }
+          }
+        },
+        "best_relaxed_cer_dpi": 150,
+        "best_relaxed_wer_dpi": 150
+      }
+    ],
+    "metric_distributions": {
+      "method": "nearest-rank percentiles: ceil(n * percentile / 100), one-based rank",
+      "primary": {
+        "strict_content_cer": {
+          "zero_records": 16,
+          "nonzero_records": 4,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.014285714285714285,
+          "maximum": 0.22448979591836735
+        },
+        "strict_content_wer": {
+          "zero_records": 16,
+          "nonzero_records": 4,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.09090909090909091,
+          "maximum": 0.5
+        },
+        "relaxed_content_cer": {
+          "zero_records": 16,
+          "nonzero_records": 4,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.014285714285714285,
+          "maximum": 0.22448979591836735
+        },
+        "relaxed_content_wer": {
+          "zero_records": 16,
+          "nonzero_records": 4,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.09090909090909091,
+          "maximum": 0.5
+        }
+      },
+      "canonical": {
+        "strict_content_cer": {
+          "zero_records": 31,
+          "nonzero_records": 7,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.22448979591836735,
+          "maximum": 0.22448979591836735
+        },
+        "strict_content_wer": {
+          "zero_records": 31,
+          "nonzero_records": 7,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.5,
+          "maximum": 0.5
+        },
+        "relaxed_content_cer": {
+          "zero_records": 31,
+          "nonzero_records": 7,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.22448979591836735,
+          "maximum": 0.22448979591836735
+        },
+        "relaxed_content_wer": {
+          "zero_records": 31,
+          "nonzero_records": 7,
+          "minimum": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p90": 0.5,
+          "maximum": 0.5
+        }
+      }
+    },
+    "highest_error_records": {
+      "raw_markdown_cer": [
+        {
+          "record_id": "bilingual-01-primary-200",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.4807692307692308,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-01-dpi-150",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "dpi",
+          "dpi": 150,
+          "metric": 0.4807692307692308,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-150.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-01-dpi-200",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "dpi",
+          "dpi": 200,
+          "metric": 0.4807692307692308,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-01-dpi-300",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "dpi",
+          "dpi": 300,
+          "metric": 0.4807692307692308,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-300.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-02-primary-200",
+          "document_id": "bilingual-02",
+          "category": "bilingual",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.4807692307692308,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-02-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-02.txt"
+        }
+      ],
+      "relaxed_content_cer": [
+        {
+          "record_id": "low-resolution-01-primary-200",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.22448979591836735,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-01-dpi-150",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "dpi",
+          "dpi": 150,
+          "metric": 0.22448979591836735,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-150.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-01-dpi-200",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "dpi",
+          "dpi": 200,
+          "metric": 0.22448979591836735,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-01-dpi-300",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "dpi",
+          "dpi": 300,
+          "metric": 0.22448979591836735,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-300.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-02-primary-200",
+          "document_id": "low-resolution-02",
+          "category": "low-resolution",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.22448979591836735,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-02-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-02.txt"
+        }
+      ],
+      "raw_markdown_wer": [
+        {
+          "record_id": "bilingual-01-primary-200",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.75,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-01-dpi-150",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "dpi",
+          "dpi": 150,
+          "metric": 0.75,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-150.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-01-dpi-200",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "dpi",
+          "dpi": 200,
+          "metric": 0.75,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-01-dpi-300",
+          "document_id": "bilingual-01",
+          "category": "bilingual",
+          "evaluation_type": "dpi",
+          "dpi": 300,
+          "metric": 0.75,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-01-300.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-01.txt"
+        },
+        {
+          "record_id": "bilingual-02-primary-200",
+          "document_id": "bilingual-02",
+          "category": "bilingual",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.75,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/bilingual-02-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/bilingual/bilingual-02.txt"
+        }
+      ],
+      "relaxed_content_wer": [
+        {
+          "record_id": "low-resolution-01-primary-200",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.5,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-01-dpi-150",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "dpi",
+          "dpi": 150,
+          "metric": 0.5,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-150.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-01-dpi-200",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "dpi",
+          "dpi": 200,
+          "metric": 0.5,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-01-dpi-300",
+          "document_id": "low-resolution-01",
+          "category": "low-resolution",
+          "evaluation_type": "dpi",
+          "dpi": 300,
+          "metric": 0.5,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-01-300.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-01.txt"
+        },
+        {
+          "record_id": "low-resolution-02-primary-200",
+          "document_id": "low-resolution-02",
+          "category": "low-resolution",
+          "evaluation_type": "primary",
+          "dpi": 200,
+          "metric": 0.5,
+          "ocr_source_path": "D:/Projects/unlimited-ocr/evaluation/outputs/low-resolution-02-200.md",
+          "ground_truth_source_path": "evaluation/ground-truth/low-resolution/low-resolution-02.txt"
+        }
+      ]
+    },
+    "numeric_schemas_used": {
+      "tables-01": [
+        {
+          "name": "paper_quantity",
+          "type": "quantity",
+          "expected": "2"
+        },
+        {
+          "name": "paper_price",
+          "type": "integer",
+          "expected": "15000"
+        },
+        {
+          "name": "ink_quantity",
+          "type": "quantity",
+          "expected": "1"
+        },
+        {
+          "name": "ink_price",
+          "type": "integer",
+          "expected": "45000"
+        }
+      ],
+      "tables-02": [
+        {
+          "name": "paper_quantity",
+          "type": "quantity",
+          "expected": "2"
+        },
+        {
+          "name": "paper_price",
+          "type": "integer",
+          "expected": "15000"
+        },
+        {
+          "name": "ink_quantity",
+          "type": "quantity",
+          "expected": "1"
+        },
+        {
+          "name": "ink_price",
+          "type": "integer",
+          "expected": "45000"
+        }
+      ],
+      "invoice-receipt-01": [
+        {
+          "name": "invoice_number",
+          "type": "identifier",
+          "expected": "INVOICE 2026-001"
+        },
+        {
+          "name": "invoice_date",
+          "type": "date",
+          "expected": "2026-07-12",
+          "accepted_formats": [
+            "2026-07-12",
+            "12 July 2026"
+          ]
+        },
+        {
+          "name": "total",
+          "type": "currency",
+          "expected_numeric": "125000",
+          "expected_currency": "IDR",
+          "currency_required": true
+        }
+      ],
+      "invoice-receipt-02": [
+        {
+          "name": "invoice_number",
+          "type": "identifier",
+          "expected": "INVOICE 2026-001"
+        },
+        {
+          "name": "invoice_date",
+          "type": "date",
+          "expected": "2026-07-12",
+          "accepted_formats": [
+            "2026-07-12",
+            "12 July 2026"
+          ]
+        },
+        {
+          "name": "total",
+          "type": "currency",
+          "expected_numeric": "125000",
+          "expected_currency": "IDR",
+          "currency_required": true
+        }
+      ],
+      "bilingual-01": [
+        {
+          "name": "sample_number",
+          "type": "quantity",
+          "expected": "1"
+        }
+      ],
+      "bilingual-02": [
+        {
+          "name": "sample_number",
+          "type": "quantity",
+          "expected": "2"
+        }
+      ],
+      "numeric-01": [
+        {
+          "name": "order_number",
+          "type": "identifier",
+          "expected": "Order 98765"
+        },
+        {
+          "name": "order_date",
+          "type": "date",
+          "expected": "2026-07-12",
+          "accepted_formats": [
+            "2026-07-12"
+          ]
+        },
+        {
+          "name": "amount",
+          "type": "currency",
+          "expected_numeric": "1250000",
+          "expected_currency": "IDR",
+          "currency_required": true
+        },
+        {
+          "name": "tax",
+          "type": "percentage",
+          "expected": "11"
+        }
+      ],
+      "numeric-02": [
+        {
+          "name": "order_number",
+          "type": "identifier",
+          "expected": "Order 98765"
+        },
+        {
+          "name": "order_date",
+          "type": "date",
+          "expected": "2026-07-12",
+          "accepted_formats": [
+            "2026-07-12"
+          ]
+        },
+        {
+          "name": "amount",
+          "type": "currency",
+          "expected_numeric": "1250000",
+          "expected_currency": "IDR",
+          "currency_required": true
+        },
+        {
+          "name": "tax",
+          "type": "percentage",
+          "expected": "11"
+        }
+      ]
+    },
+    "numeric_per_field_results": [
+      {
+        "name": "paper_quantity",
+        "type": "quantity",
+        "expected": "2",
+        "observed": "2",
+        "matched_ocr_span": "2",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_price",
+        "type": "integer",
+        "expected": "15000",
+        "observed": "15000",
+        "matched_ocr_span": "15000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_quantity",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_price",
+        "type": "integer",
+        "expected": "45000",
+        "observed": "45000",
+        "matched_ocr_span": "45000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_quantity",
+        "type": "quantity",
+        "expected": "2",
+        "observed": "2",
+        "matched_ocr_span": "2",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_price",
+        "type": "integer",
+        "expected": "15000",
+        "observed": "15000",
+        "matched_ocr_span": "15000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_quantity",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_price",
+        "type": "integer",
+        "expected": "45000",
+        "observed": "45000",
+        "matched_ocr_span": "45000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_quantity",
+        "type": "quantity",
+        "expected": "2",
+        "observed": "2",
+        "matched_ocr_span": "2",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_price",
+        "type": "integer",
+        "expected": "15000",
+        "observed": "15000",
+        "matched_ocr_span": "15000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_quantity",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_price",
+        "type": "integer",
+        "expected": "45000",
+        "observed": "45000",
+        "matched_ocr_span": "45000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_quantity",
+        "type": "quantity",
+        "expected": "2",
+        "observed": "2",
+        "matched_ocr_span": "2",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_price",
+        "type": "integer",
+        "expected": "15000",
+        "observed": "15000",
+        "matched_ocr_span": "15000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_quantity",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_price",
+        "type": "integer",
+        "expected": "45000",
+        "observed": "45000",
+        "matched_ocr_span": "45000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_quantity",
+        "type": "quantity",
+        "expected": "2",
+        "observed": "2",
+        "matched_ocr_span": "2",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "paper_price",
+        "type": "integer",
+        "expected": "15000",
+        "observed": "15000",
+        "matched_ocr_span": "15000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_quantity",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "ink_price",
+        "type": "integer",
+        "expected": "45000",
+        "observed": "45000",
+        "matched_ocr_span": "45000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "invoice_number",
+        "type": "identifier",
+        "expected": "INVOICE2026-001",
+        "observed": "INVOICE2026-001",
+        "matched_ocr_span": "INVOICE 2026-001",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "invoice_date",
+        "type": "date",
+        "expected": "2026-07-12",
+        "observed": "2026-07-12",
+        "matched_ocr_span": "12 July 2026",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "total",
+        "type": "currency",
+        "expected": "IDR:125000",
+        "observed": "IDR:125000",
+        "matched_ocr_span": "Rp 125000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "invoice_number",
+        "type": "identifier",
+        "expected": "INVOICE2026-001",
+        "observed": "INVOICE2026-001",
+        "matched_ocr_span": "INVOICE 2026-001",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "invoice_date",
+        "type": "date",
+        "expected": "2026-07-12",
+        "observed": "2026-07-12",
+        "matched_ocr_span": "12 July 2026",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "total",
+        "type": "currency",
+        "expected": "IDR:125000",
+        "observed": "IDR:125000",
+        "matched_ocr_span": "Rp 125000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "sample_number",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "sample_number",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "sample_number",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "sample_number",
+        "type": "quantity",
+        "expected": "1",
+        "observed": "1",
+        "matched_ocr_span": "1",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "sample_number",
+        "type": "quantity",
+        "expected": "2",
+        "observed": "2",
+        "matched_ocr_span": "2",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "order_number",
+        "type": "identifier",
+        "expected": "ORDER98765",
+        "observed": "ORDER98765",
+        "matched_ocr_span": "Order 98765",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "order_date",
+        "type": "date",
+        "expected": "2026-07-12",
+        "observed": "2026-07-12",
+        "matched_ocr_span": "2026-07-12",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "amount",
+        "type": "currency",
+        "expected": "IDR:1250000",
+        "observed": "IDR:1250000",
+        "matched_ocr_span": "Rp 1,250,000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "tax",
+        "type": "percentage",
+        "expected": "11",
+        "observed": "11",
+        "matched_ocr_span": "11%",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "order_number",
+        "type": "identifier",
+        "expected": "ORDER98765",
+        "observed": "ORDER98765",
+        "matched_ocr_span": "Order 98765",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "order_date",
+        "type": "date",
+        "expected": "2026-07-12",
+        "observed": "2026-07-12",
+        "matched_ocr_span": "2026-07-12",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "amount",
+        "type": "currency",
+        "expected": "IDR:1250000",
+        "observed": "IDR:1250000",
+        "matched_ocr_span": "Rp 1,250,000",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      },
+      {
+        "name": "tax",
+        "type": "percentage",
+        "expected": "11",
+        "observed": "11",
+        "matched_ocr_span": "11%",
+        "normalization_applied": "deterministic_schema_normalization",
+        "correct": true,
+        "failure_category": null
+      }
+    ],
+    "numeric_aggregate_accuracy": {
+      "overall": {
+        "correct": 39,
+        "total": 39,
+        "accuracy": 1.0
+      },
+      "identifier": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      },
+      "date": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      },
+      "currency": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      },
+      "integer": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "decimal": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "percentage": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "quantity": {
+        "correct": 15,
+        "total": 15,
+        "accuracy": 1.0
+      },
+      "phone": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      }
+    },
+    "table_schemas_used": {
+      "tables-01": {
+        "headers": [
+          "Item",
+          "Quantity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Paper",
+            "2",
+            "15000"
+          ],
+          [
+            "Ink",
+            "1",
+            "45000"
+          ]
+        ]
+      },
+      "tables-02": {
+        "headers": [
+          "Item",
+          "Quantity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Paper",
+            "2",
+            "15000"
+          ],
+          [
+            "Ink",
+            "1",
+            "45000"
+          ]
+        ]
+      }
+    },
+    "table_per_document_results": [
+      {
+        "record_id": "tables-01-primary-200",
+        "document_id": "tables-01",
+        "result": {
+          "headers": [
+            {
+              "expected": "Item",
+              "observed": "Item",
+              "correct": true
+            },
+            {
+              "expected": "Quantity",
+              "observed": "Quantity",
+              "correct": true
+            },
+            {
+              "expected": "Price",
+              "observed": "Price",
+              "correct": true
+            }
+          ],
+          "body_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "expected": "Paper",
+              "observed": "Paper",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "expected": "2",
+              "observed": "2",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "expected": "15000",
+              "observed": "15000",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "expected": "Ink",
+              "observed": "Ink",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "expected": "1",
+              "observed": "1",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "expected": "45000",
+              "observed": "45000",
+              "correct": true
+            }
+          ],
+          "row_content_preservation": {
+            "correct": 2,
+            "total": 2,
+            "accuracy": 1.0
+          },
+          "header_cell_accuracy": {
+            "correct": 3,
+            "total": 3,
+            "accuracy": 1.0
+          },
+          "body_cell_accuracy": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1.0
+          },
+          "numeric_cell_accuracy": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1.0
+          },
+          "overall_cell_accuracy": {
+            "correct": 9,
+            "total": 9,
+            "accuracy": 1.0
+          }
+        }
+      },
+      {
+        "record_id": "tables-01-dpi-150",
+        "document_id": "tables-01",
+        "result": {
+          "headers": [
+            {
+              "expected": "Item",
+              "observed": "Item",
+              "correct": true
+            },
+            {
+              "expected": "Quantity",
+              "observed": "Quantity",
+              "correct": true
+            },
+            {
+              "expected": "Price",
+              "observed": "Price",
+              "correct": true
+            }
+          ],
+          "body_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "expected": "Paper",
+              "observed": "Paper",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "expected": "2",
+              "observed": "2",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "expected": "15000",
+              "observed": "15000",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "expected": "Ink",
+              "observed": "Ink",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "expected": "1",
+              "observed": "1",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "expected": "45000",
+              "observed": "45000",
+              "correct": true
+            }
+          ],
+          "row_content_preservation": {
+            "correct": 2,
+            "total": 2,
+            "accuracy": 1.0
+          },
+          "header_cell_accuracy": {
+            "correct": 3,
+            "total": 3,
+            "accuracy": 1.0
+          },
+          "body_cell_accuracy": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1.0
+          },
+          "numeric_cell_accuracy": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1.0
+          },
+          "overall_cell_accuracy": {
+            "correct": 9,
+            "total": 9,
+            "accuracy": 1.0
+          }
+        }
+      },
+      {
+        "record_id": "tables-01-dpi-200",
+        "document_id": "tables-01",
+        "result": {
+          "headers": [
+            {
+              "expected": "Item",
+              "observed": "Item",
+              "correct": true
+            },
+            {
+              "expected": "Quantity",
+              "observed": "Quantity",
+              "correct": true
+            },
+            {
+              "expected": "Price",
+              "observed": "Price",
+              "correct": true
+            }
+          ],
+          "body_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "expected": "Paper",
+              "observed": "Paper",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "expected": "2",
+              "observed": "2",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "expected": "15000",
+              "observed": "15000",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "expected": "Ink",
+              "observed": "Ink",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "expected": "1",
+              "observed": "1",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "expected": "45000",
+              "observed": "45000",
+              "correct": true
+            }
+          ],
+          "row_content_preservation": {
+            "correct": 2,
+            "total": 2,
+            "accuracy": 1.0
+          },
+          "header_cell_accuracy": {
+            "correct": 3,
+            "total": 3,
+            "accuracy": 1.0
+          },
+          "body_cell_accuracy": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1.0
+          },
+          "numeric_cell_accuracy": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1.0
+          },
+          "overall_cell_accuracy": {
+            "correct": 9,
+            "total": 9,
+            "accuracy": 1.0
+          }
+        }
+      },
+      {
+        "record_id": "tables-01-dpi-300",
+        "document_id": "tables-01",
+        "result": {
+          "headers": [
+            {
+              "expected": "Item",
+              "observed": "Item",
+              "correct": true
+            },
+            {
+              "expected": "Quantity",
+              "observed": "Quantity",
+              "correct": true
+            },
+            {
+              "expected": "Price",
+              "observed": "Price",
+              "correct": true
+            }
+          ],
+          "body_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "expected": "Paper",
+              "observed": "Paper",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "expected": "2",
+              "observed": "2",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "expected": "15000",
+              "observed": "15000",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "expected": "Ink",
+              "observed": "Ink",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "expected": "1",
+              "observed": "1",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "expected": "45000",
+              "observed": "45000",
+              "correct": true
+            }
+          ],
+          "row_content_preservation": {
+            "correct": 2,
+            "total": 2,
+            "accuracy": 1.0
+          },
+          "header_cell_accuracy": {
+            "correct": 3,
+            "total": 3,
+            "accuracy": 1.0
+          },
+          "body_cell_accuracy": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1.0
+          },
+          "numeric_cell_accuracy": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1.0
+          },
+          "overall_cell_accuracy": {
+            "correct": 9,
+            "total": 9,
+            "accuracy": 1.0
+          }
+        }
+      },
+      {
+        "record_id": "tables-02-primary-200",
+        "document_id": "tables-02",
+        "result": {
+          "headers": [
+            {
+              "expected": "Item",
+              "observed": "Item",
+              "correct": true
+            },
+            {
+              "expected": "Quantity",
+              "observed": "Quantity",
+              "correct": true
+            },
+            {
+              "expected": "Price",
+              "observed": "Price",
+              "correct": true
+            }
+          ],
+          "body_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "expected": "Paper",
+              "observed": "Paper",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "expected": "2",
+              "observed": "2",
+              "correct": true
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "expected": "15000",
+              "observed": "15000",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "expected": "Ink",
+              "observed": "Ink",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "expected": "1",
+              "observed": "1",
+              "correct": true
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "expected": "45000",
+              "observed": "45000",
+              "correct": true
+            }
+          ],
+          "row_content_preservation": {
+            "correct": 2,
+            "total": 2,
+            "accuracy": 1.0
+          },
+          "header_cell_accuracy": {
+            "correct": 3,
+            "total": 3,
+            "accuracy": 1.0
+          },
+          "body_cell_accuracy": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1.0
+          },
+          "numeric_cell_accuracy": {
+            "correct": 4,
+            "total": 4,
+            "accuracy": 1.0
+          },
+          "overall_cell_accuracy": {
+            "correct": 9,
+            "total": 9,
+            "accuracy": 1.0
+          }
+        }
+      }
+    ],
+    "table_aggregate_accuracy": {
+      "header_cell_accuracy": {
+        "correct": 15,
+        "total": 15,
+        "accuracy": 1.0
+      },
+      "body_cell_accuracy": {
+        "correct": 30,
+        "total": 30,
+        "accuracy": 1.0
+      },
+      "numeric_cell_accuracy": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "row_content_preservation": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "overall_cell_accuracy": {
+        "correct": 45,
+        "total": 45,
+        "accuracy": 1.0
+      }
+    },
+    "known_limitations": [
+      "Layout structure is not evaluated by table cell scoring.",
+      "No manual layout review has been performed in this stage."
+    ]
+  },
+  "manual_layout_review": {
+    "reviewer": "Codex",
+    "review_date": "2026-07-12",
+    "review_method": "Local Playwright Chromium screenshots of a local static review page generated from locally rendered PDFs, ground truth, and persisted raw OCR Markdown.",
+    "documents_reviewed": 8,
+    "documents": [
+      {
+        "document_id": "multi-column-01",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": null,
+          "paragraph_grouping": 3,
+          "column_order": null,
+          "table_structure": null,
+          "page_boundaries": null,
+          "overall": 4
+        },
+        "observations": [
+          "The rendered fixture presents the Left/Right-labelled lines as one visual column.",
+          "OCR preserves the five lines in the same visible order; there is no separate visual column arrangement to score."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/multi-column-01.png"
+        ]
+      },
+      {
+        "document_id": "multi-column-02",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": null,
+          "paragraph_grouping": 3,
+          "column_order": null,
+          "table_structure": null,
+          "page_boundaries": null,
+          "overall": 4
+        },
+        "observations": [
+          "The rendered fixture presents the Left/Right-labelled lines as one visual column.",
+          "OCR preserves the visible line sequence and the Sample 2 suffix."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/multi-column-02.png"
+        ]
+      },
+      {
+        "document_id": "tables-01",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": 3,
+          "paragraph_grouping": 3,
+          "column_order": 3,
+          "table_structure": 3,
+          "page_boundaries": null,
+          "overall": 3
+        },
+        "observations": [
+          "The Item Quantity Price header and both data rows are present in OCR in the same row order.",
+          "The source and OCR use whitespace-delimited rows rather than visible grid borders."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/tables-01.png"
+        ]
+      },
+      {
+        "document_id": "tables-02",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": 3,
+          "paragraph_grouping": 3,
+          "column_order": 3,
+          "table_structure": 3,
+          "page_boundaries": null,
+          "overall": 3
+        },
+        "observations": [
+          "OCR preserves the header, Paper row, Ink row, and Sample 2 line in their visible order.",
+          "The table remains readable as whitespace-delimited rows without Markdown table borders."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/tables-02.png"
+        ]
+      },
+      {
+        "document_id": "invoice-receipt-01",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": 4,
+          "paragraph_grouping": 4,
+          "column_order": null,
+          "table_structure": null,
+          "page_boundaries": null,
+          "overall": 4
+        },
+        "observations": [
+          "The INVOICE identifier, date, total, and Sample 1 line are visibly preserved in OCR.",
+          "Label-value lines remain separate and retain their original order."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/invoice-receipt-01.png"
+        ]
+      },
+      {
+        "document_id": "invoice-receipt-02",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": 4,
+          "paragraph_grouping": 4,
+          "column_order": null,
+          "table_structure": null,
+          "page_boundaries": null,
+          "overall": 4
+        },
+        "observations": [
+          "The INVOICE identifier, date, total, and Sample 2 line are visibly preserved in OCR.",
+          "Spacing differs only by Markdown wrapper removal; field order and line grouping remain unchanged."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/invoice-receipt-02.png"
+        ]
+      },
+      {
+        "document_id": "multi-page-01",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": null,
+          "paragraph_grouping": 4,
+          "column_order": null,
+          "table_structure": null,
+          "page_boundaries": 4,
+          "overall": 4
+        },
+        "observations": [
+          "All three rendered pages appear in ascending order with page-specific Page 1, Page 2, and Page 3 text.",
+          "OCR page sections preserve each boundary and do not duplicate content across page numbers."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/multi-page-01.png"
+        ]
+      },
+      {
+        "document_id": "multi-page-02",
+        "scores": {
+          "reading_order": 4,
+          "heading_preservation": null,
+          "paragraph_grouping": 4,
+          "column_order": null,
+          "table_structure": null,
+          "page_boundaries": 4,
+          "overall": 4
+        },
+        "observations": [
+          "All three rendered pages appear in ascending order with the Sample 2 page-specific text.",
+          "OCR page sections preserve all three boundaries and keep page-specific text on the corresponding page."
+        ],
+        "failure_categories": [],
+        "evidence_paths": [
+          "evaluation/reports/manual-review/screenshots/multi-page-02.png"
+        ]
+      }
+    ]
+  },
+  "layout_aggregates": {
+    "by_category": {
+      "multi-column": {
+        "median_overall": 4.0,
+        "scores": [
+          4,
+          4
+        ]
+      },
+      "tables": {
+        "median_overall": 3.0,
+        "scores": [
+          3,
+          3
+        ]
+      },
+      "invoice-receipt": {
+        "median_overall": 4.0,
+        "scores": [
+          4,
+          4
+        ]
+      },
+      "multi-page": {
+        "median_overall": 4.0,
+        "scores": [
+          4,
+          4
+        ]
+      }
+    },
+    "median_overall": 4.0
+  },
+  "performance": {
+    "median_page_inference_ms": {
+      "value": 2046,
+      "source": "Phase 3 real offline three-page verification"
+    },
+    "p95_page_inference_ms": {
+      "value": 2565,
+      "source": "Phase 3 real offline three-page verification; nearest-rank p95 of 3 pages"
+    },
+    "maximum_page_inference_ms": {
+      "value": 2565,
+      "source": "Phase 3 real offline three-page verification"
+    },
+    "median_render_ms": {
+      "value": 71,
+      "source": "Phase 3 real offline three-page verification"
+    },
+    "maximum_render_ms": {
+      "value": 72,
+      "source": "Phase 3 real offline three-page verification"
+    },
+    "peak_allocated_vram_mb": {
+      "value": 9065,
+      "source": "Phase 6 raw results"
+    },
+    "peak_process_rss_bytes": {
+      "value": 7359299584,
+      "source": "Phase 4 12-page soak verification"
+    }
+  },
+  "threshold_results": [
+    {
+      "metric": "Document completion rate",
+      "actual": 1.0,
+      "required": ">= 0.95",
+      "status": "PASS",
+      "source": "38 canonical records"
+    },
+    {
+      "metric": "Page success rate",
+      "actual": 1.0,
+      "required": ">= 0.98",
+      "status": "PASS",
+      "source": "canonical raw results"
+    },
+    {
+      "metric": "Integrity pass rate",
+      "actual": 1.0,
+      "required": "= 1.0",
+      "status": "PASS",
+      "source": "canonical raw results"
+    },
+    {
+      "metric": "Median relaxed content CER",
+      "actual": 0.0,
+      "required": "<= 0.05",
+      "status": "PASS",
+      "source": "phase6-content-results.json"
+    },
+    {
+      "metric": "Median relaxed content WER",
+      "actual": 0.0,
+      "required": "<= 0.10",
+      "status": "PASS",
+      "source": "phase6-content-results.json"
+    },
+    {
+      "metric": "Numeric-field accuracy",
+      "actual": 1.0,
+      "required": ">= 0.95",
+      "status": "PASS",
+      "source": "phase6-structured-results.json"
+    },
+    {
+      "metric": "No category median relaxed CER above 15%",
+      "actual": 0.22448979591836735,
+      "required": "<= 0.15",
+      "status": "FAIL",
+      "source": "low-resolution category aggregate"
+    },
+    {
+      "metric": "Median overall layout score",
+      "actual": 4.0,
+      "required": ">= 3",
+      "status": "PASS",
+      "source": "manual-layout-review.json"
+    },
+    {
+      "metric": "Minimum table overall score",
+      "actual": 3,
+      "required": ">= 2",
+      "status": "PASS",
+      "source": "manual-layout-review.json"
+    },
+    {
+      "metric": "Minimum multi-column overall score",
+      "actual": 4,
+      "required": ">= 2",
+      "status": "PASS",
+      "source": "manual-layout-review.json"
+    },
+    {
+      "metric": "Median page inference duration",
+      "actual": 2046,
+      "required": "<= 5000 ms",
+      "status": "PASS",
+      "source": "Phase 3 real offline three-page verification"
+    },
+    {
+      "metric": "CUDA OOM",
+      "actual": 0,
+      "required": "0",
+      "status": "PASS",
+      "source": "Phase 6 raw results"
+    },
+    {
+      "metric": "Application crashes",
+      "actual": 0,
+      "required": "0",
+      "status": "PASS",
+      "source": "Phase 6 evaluation evidence"
+    }
+  ],
+  "dpi_decision": {
+    "decision": "KEEP_200_DPI",
+    "reason": "The six-document canonical DPI matrix has equal relaxed CER/WER at 150, 200, and 300 DPI; 200 DPI remains the verified balanced default."
+  },
+  "regression_results": {
+    "scorer_tests": "83 passed",
+    "backend_tests": "139 passed",
+    "frontend_smoke": "3 passed",
+    "playwright": "4 passed",
+    "typescript": "passed",
+    "production_build": "passed",
+    "build_id": "present",
+    "packaged_verifier": "2 external normal-PowerShell runs passed; exit code 0 and cleanup passed for both"
+  },
+  "known_limitations": [
+    "Low-resolution fixtures are weak: category median relaxed CER is 22.45%.",
+    "Table cell scoring does not validate visual alignment.",
+    "The multi-column fixtures render as single-column labelled text, so visual column ordering is not applicable."
+  ],
+  "release_decision": "RELEASE_WITH_LIMITATIONS",
+  "release_designation": "Local OCR v0.1.0"
+}
